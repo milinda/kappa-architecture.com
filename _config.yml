@@ -1,4 +1,4 @@
 title_tag_text: Kappa Architecture - Where Every Thing Is A Stream
-h1_tag_text: Kappa Architecture
+h1_tag_text: kappa-architecture.com
 
 exclude: ["Procfile", "Gruntfile.js", "README.md", "package.json", "CNAME", "node_modules"]
