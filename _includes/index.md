@@ -8,6 +8,10 @@ The idea of Kappa Architecture was first described in [article](http://radar.ore
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/fU9hR3kiOK0" frameborder="0" allowfullscreen></iframe>
 
+### Presentations
+
+* [Discovering Kappa Architecture the hard way](http://novoj.github.io/reveal.js/kappa-architecture.html#/)
+
 ## Contributing
 
 This is project is still in its initial phase. Please feel free to send your suggestions, comments to [me](mailto:milinda.pathirage@gmail.com). Also feel free to fork the [repo](https://github.com/milinda/kappa-architecture.com) and send pull requests.
