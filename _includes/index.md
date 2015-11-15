@@ -11,6 +11,7 @@ The idea of Kappa Architecture was first described in [article](http://radar.ore
 ### Presentations
 
 * [Discovering Kappa Architecture the hard way](http://novoj.github.io/reveal.js/kappa-architecture.html#/)
+* [Kappa Architecture: Our Experience](http://events.linuxfoundation.org/sites/events/files/slides/ASPgems%20-%20Kappa%20Architecture.pdf)
 
 ## Contributing
 
