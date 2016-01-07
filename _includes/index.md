@@ -1,17 +1,49 @@
 Repository dedicated to Kappa Architecture. I collect and publish articles, tutorials, talks, projects and examples related to Kappa Architecture.
 
-## What Is Kappa Architecture?
+## What is Kappa Architecture?
 
-The idea of Kappa Architecture was first described in [article](http://radar.oreilly.com/2014/07/questioning-the-lambda-architecture.html) by [Jay Kreps](https://www.linkedin.com/in/jaykreps) from LinkedIn. Then came the talk ["Turning the database inside out with Apache Samza"](https://www.youtube.com/watch?v=fU9hR3kiOK0) by [Martin Kleppmann](http://martin.kleppmann.com) at 2014 [StrangeLoop](https://thestrangeloop.com) which inspired this web site.
+Kappa Architecture is a software architecture pattern. Rather than using a relational DB like SQL or a key-value store like Cassandra, the canonical data store in a Kappa Architecture system is an append-only immutable log. From the log, data is streamed through a computational system and fed into auxiliary stores for serving.
+
+Kappa Architecture is a simplification of [Lambda Architecture](https://en.wikipedia.org/wiki/Lambda_architecture). A Kappa Architecture system is like a Lambda Architecture system with the batch processing system removed. To replace batch processing, data is simply fed through the streaming system quickly.
+
+## But why?
+
+Kappa Architecture revolutionizes database migrations and reorganizations: just delete your serving layer database and populate a new copy from the canonical store! Since there is no batch processing layer, only one set of code needs to be maintained.
+
+## Says who?
+
+The idea of Kappa Architecture was first described in an [article](http://radar.oreilly.com/2014/07/questioning-the-lambda-architecture.html) by [Jay Kreps](https://www.linkedin.com/in/jaykreps) from LinkedIn. Then came the talk ["Turning the database inside out with Apache Samza"](https://www.youtube.com/watch?v=fU9hR3kiOK0) by [Martin Kleppmann](http://martin.kleppmann.com) at 2014 [StrangeLoop](https://thestrangeloop.com) which inspired this web site.
 
 ### Turning the database inside out with Apache Samza
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/fU9hR3kiOK0" frameborder="0" allowfullscreen></iframe>
 
-### Presentations
+### Resources
 
-* [Discovering Kappa Architecture the hard way](http://novoj.github.io/reveal.js/kappa-architecture.html#/)
-* [Kappa Architecture: Our Experience](http://events.linuxfoundation.org/sites/events/files/slides/ASPgems%20-%20Kappa%20Architecture.pdf)
+* Article by Jay Kreps: [https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying](The Log: What every software engineer should know about real-time data's unifying abstraction)
+* Presentation: [Discovering Kappa Architecture the hard way](http://novoj.github.io/reveal.js/kappa-architecture.html#/)
+* Linux Foundation Presentation: [Kappa Architecture: Our Experience](http://events.linuxfoundation.org/sites/events/files/slides/ASPgems%20-%20Kappa%20Architecture.pdf)
+
+## Tools
+
+### Log data stores
+
+An append-only immutable log store is the canonical store in a Kappa Architecture (or Lambda Architecture) system. Some log databases:
+
+* [Apache Kafka](http://kafka.apache.org/)
+
+### Streaming computation systems
+
+In Kappa Architecture, data is fed from the log store into a streaming computation system. Some distributed streaming systems:
+
+* [Apache Samza](http://samza.apache.org/)
+* [Apache Storm](http://storm.apache.org/)
+* [Apache Spark](http://spark.apache.org/)
+* [Amazon Kinesis](https://aws.amazon.com/kinesis/)
+
+### Serving layer stores
+
+The purpose of the serving layer is to provide optimized responses to queries. These databases aren't used as canonical stores: at any point, you can wipe them and regenerate them from the canonical data store. Almost any database, in-memory or persistent, might be used in the serving layer. This also includes special-purpose databases, e.g. for full text search.
 
 ## Contributing
 
