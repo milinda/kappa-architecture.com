@@ -24,6 +24,7 @@ The idea of Kappa Architecture was first described in an [article](http://radar.
 * Article by Jay Kreps: [https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying](The Log: What every software engineer should know about real-time data's unifying abstraction)
 * Presentation: [Discovering Kappa Architecture the hard way](http://novoj.github.io/reveal.js/kappa-architecture.html#/)
 * Linux Foundation Presentation: [Kappa Architecture: Our Experience](http://events.linuxfoundation.org/sites/events/files/slides/ASPgems%20-%20Kappa%20Architecture.pdf)
+* [Liquid: Unifying Nearline and Offline Big Data Integration](http://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper25u.pdf) (Summary of Liquid paper can be found [here](http://blog.acolyer.org/2015/02/04/liquid-unifying-nearline-and-offline-big-data-integration/).)
 
 ## Tools
 
