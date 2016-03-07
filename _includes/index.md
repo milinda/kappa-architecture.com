@@ -20,6 +20,7 @@ The idea of Kappa Architecture was first described in an [article](http://radar.
 
 ### Resources
 
+* [Questioning the Lambda Architecture]https://www.oreilly.com/ideas/questioning-the-lambda-architecture
 * [Apache Kafka and the Next 700 Stream Processing Systems](https://www.youtube.com/watch?v=9RMOc0SwRro)
 * Article by Jay Kreps: [https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying](The Log: What every software engineer should know about real-time data's unifying abstraction)
 * Presentation: [Discovering Kappa Architecture the hard way](http://novoj.github.io/reveal.js/kappa-architecture.html#/)
