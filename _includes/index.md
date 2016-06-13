@@ -34,6 +34,7 @@ The idea of Kappa Architecture was first described in an [article](http://radar.
 An append-only immutable log store is the canonical store in a Kappa Architecture (or Lambda Architecture) system. Some log databases:
 
 * [Apache Kafka](http://kafka.apache.org/)
+* [DistributedLog](http://distributedlog.io/)
 
 ### Streaming computation systems
 
