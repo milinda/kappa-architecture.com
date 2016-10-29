@@ -46,6 +46,7 @@ In Kappa Architecture, data is fed from the log store into a streaming computati
 * [Amazon Kinesis](https://aws.amazon.com/kinesis/)
 * [Kafka Streams](http://kafka.apache.org/documentation.html#streams)
 * [Apache Flink](https://flink.apache.org/)
+* [Onyx](http://www.onyxplatform.org/)
 
 ### Serving layer stores
 
