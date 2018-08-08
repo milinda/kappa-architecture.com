@@ -34,20 +34,23 @@ The idea of Kappa Architecture was first described in an [article](http://radar.
 An append-only immutable log store is the canonical store in a Kappa Architecture (or Lambda Architecture) system. Some log databases:
 
 * [Apache Kafka](http://kafka.apache.org/)
+* [Azure Cosmos DB Change Feed](https://docs.microsoft.com/en-us/azure/cosmos-db/change-feed)
+* [Azure EventHub](https://azure.microsoft.com/en-us/services/event-hubs/)
 * [DistributedLog](http://distributedlog.io/)
 
 ### Streaming computation systems
 
 In Kappa Architecture, data is fed from the log store into a streaming computation system. Some distributed streaming systems:
 
-* [Apache Samza](http://samza.apache.org/)
-* [Apache Storm](http://storm.apache.org/)
-* [Apache Spark](http://spark.apache.org/)
 * [Amazon Kinesis](https://aws.amazon.com/kinesis/)
-* [Kafka Streams](http://kafka.apache.org/documentation.html#streams)
 * [Apache Flink](https://flink.apache.org/)
-* [Onyx](http://www.onyxplatform.org/)
+* [Apache Samza](http://samza.apache.org/)
+* [Apache Spark](http://spark.apache.org/)
+* [Apache Storm](http://storm.apache.org/)
+* [Azure Stream Analytics](https://azure.microsoft.com/en-us/services/stream-analytics/)
 * [Hazelcast Jet](http://jet.hazelcast.org)
+* [Kafka Streams](http://kafka.apache.org/documentation.html#streams)
+* [Onyx](http://www.onyxplatform.org/)
 
 ### Serving layer stores
 
