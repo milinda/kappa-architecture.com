@@ -26,6 +26,7 @@ The idea of Kappa Architecture was first described in an [article](http://radar.
 * Presentation: [Discovering Kappa Architecture the hard way](http://novoj.github.io/reveal.js/kappa-architecture.html#/)
 * Linux Foundation Presentation: [Kappa Architecture: Our Experience](http://events.linuxfoundation.org/sites/events/files/slides/ASPgems%20-%20Kappa%20Architecture.pdf)
 * [Liquid: Unifying Nearline and Offline Big Data Integration](http://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper25u.pdf) (Summary of Liquid paper can be found [here](http://blog.acolyer.org/2015/02/04/liquid-unifying-nearline-and-offline-big-data-integration/).)
+* Article by Joan Goyeau: [Functional Programming with Kafka Streams and Scala](https://itnext.io/a-cqrs-approach-with-kafka-streams-and-scala-49bfa78e4295)
 
 ## Tools
 
