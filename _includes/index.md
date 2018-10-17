@@ -51,6 +51,7 @@ In Kappa Architecture, data is fed from the log store into a streaming computati
 * [Apache Samza](http://samza.apache.org/)
 * [Apache Spark](http://spark.apache.org/)
 * [Apache Storm](http://storm.apache.org/)
+* [Apache Beam](https://beam.apache.org/)
 * [Azure Stream Analytics](https://azure.microsoft.com/en-us/services/stream-analytics/)
 * [Hazelcast Jet](http://jet.hazelcast.org)
 * [Kafka Streams](http://kafka.apache.org/documentation.html#streams)
