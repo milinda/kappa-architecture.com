@@ -35,6 +35,7 @@ The idea of Kappa Architecture was first described in an [article](http://radar.
 An append-only immutable log store is the canonical store in a Kappa Architecture (or Lambda Architecture) system. Some log databases:
 
 * [Apache Kafka](http://kafka.apache.org/)
+* [Apache Pulsar](https://pulsar.apache.org/)
 * [Azure Cosmos DB Change Feed](https://docs.microsoft.com/en-us/azure/cosmos-db/change-feed)
 * [Azure EventHub](https://azure.microsoft.com/en-us/services/event-hubs/)
 * [DistributedLog](http://distributedlog.io/)
