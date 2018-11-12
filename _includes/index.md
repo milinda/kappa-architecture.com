@@ -12,7 +12,7 @@ Kappa Architecture revolutionizes database migrations and reorganizations: just 
 
 ## Says who?
 
-The idea of Kappa Architecture was first described in an [article](http://radar.oreilly.com/2014/07/questioning-the-lambda-architecture.html) by [Jay Kreps](https://www.linkedin.com/in/jaykreps) from LinkedIn. Then came the talk ["Turning the database inside out with Apache Samza"](https://www.youtube.com/watch?v=fU9hR3kiOK0) by [Martin Kleppmann](http://martin.kleppmann.com) at 2014 [StrangeLoop](https://thestrangeloop.com) which inspired this web site.
+The idea of Kappa Architecture was first described in an [article](https://www.oreilly.com/ideas/questioning-the-lambda-architecture) by [Jay Kreps](https://www.linkedin.com/in/jaykreps) from LinkedIn. Then came the talk ["Turning the database inside out with Apache Samza"](https://www.youtube.com/watch?v=fU9hR3kiOK0) by [Martin Kleppmann](https://martin.kleppmann.com) at 2014 [StrangeLoop](https://thestrangeloop.com) which inspired this web site.
 
 ### Turning the database inside out with Apache Samza
 
@@ -23,9 +23,9 @@ The idea of Kappa Architecture was first described in an [article](http://radar.
 * [Questioning the Lambda Architecture](https://www.oreilly.com/ideas/questioning-the-lambda-architecture)
 * [Apache Kafka and the Next 700 Stream Processing Systems](https://www.youtube.com/watch?v=9RMOc0SwRro)
 * Article by Jay Kreps: [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
-* Presentation: [Discovering Kappa Architecture the hard way](http://novoj.github.io/reveal.js/kappa-architecture.html#/)
-* Linux Foundation Presentation: [Kappa Architecture: Our Experience](http://events.linuxfoundation.org/sites/events/files/slides/ASPgems%20-%20Kappa%20Architecture.pdf)
-* [Liquid: Unifying Nearline and Offline Big Data Integration](http://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper25u.pdf) (Summary of Liquid paper can be found [here](http://blog.acolyer.org/2015/02/04/liquid-unifying-nearline-and-offline-big-data-integration/).)
+* Presentation: [Discovering Kappa Architecture the hard way](https://novoj.github.io/reveal.js/kappa-architecture.html#/)
+* Linux Foundation Presentation: [Kappa Architecture: Our Experience](https://events.linuxfoundation.org/sites/events/files/slides/ASPgems%20-%20Kappa%20Architecture.pdf)
+* [Liquid: Unifying Nearline and Offline Big Data Integration](https://web.archive.org/web/20160324171136/http://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper25u.pdf) (Summary of Liquid paper can be found [here](https://blog.acolyer.org/2015/02/04/liquid-unifying-nearline-and-offline-big-data-integration/).)
 * Article by Joan Goyeau: [Functional Programming with Kafka Streams and Scala](https://itnext.io/a-cqrs-approach-with-kafka-streams-and-scala-49bfa78e4295)
 
 ## Tools
@@ -34,11 +34,11 @@ The idea of Kappa Architecture was first described in an [article](http://radar.
 
 An append-only immutable log store is the canonical store in a Kappa Architecture (or Lambda Architecture) system. Some log databases:
 
-* [Apache Kafka](http://kafka.apache.org/)
+* [Apache Kafka](https://kafka.apache.org/)
 * [Apache Pulsar](https://pulsar.apache.org/)
 * [Azure Cosmos DB Change Feed](https://docs.microsoft.com/en-us/azure/cosmos-db/change-feed)
 * [Azure EventHub](https://azure.microsoft.com/en-us/services/event-hubs/)
-* [DistributedLog](http://distributedlog.io/)
+* [DistributedLog](https://bookkeeper.apache.org/distributedlog/)
 * [Chronicle Queue](https://github.com/OpenHFT/Chronicle-Queue)
 * [Pravega](http://pravega.io/)
 
@@ -48,14 +48,14 @@ In Kappa Architecture, data is fed from the log store into a streaming computati
 
 * [Amazon Kinesis](https://aws.amazon.com/kinesis/)
 * [Apache Flink](https://flink.apache.org/)
-* [Apache Samza](http://samza.apache.org/)
-* [Apache Spark](http://spark.apache.org/)
-* [Apache Storm](http://storm.apache.org/)
+* [Apache Samza](https://samza.apache.org/)
+* [Apache Spark](https://spark.apache.org/)
+* [Apache Storm](https://storm.apache.org/)
 * [Apache Beam](https://beam.apache.org/)
 * [Azure Stream Analytics](https://azure.microsoft.com/en-us/services/stream-analytics/)
-* [Hazelcast Jet](http://jet.hazelcast.org)
-* [Kafka Streams](http://kafka.apache.org/documentation.html#streams)
-* [Onyx](http://www.onyxplatform.org/)
+* [Hazelcast Jet](https://jet.hazelcast.org/)
+* [Kafka Streams](https://kafka.apache.org/documentation.html#streams)
+* [Onyx](https://www.onyxplatform.org/)
 
 ### Serving layer stores
 
