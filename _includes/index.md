@@ -36,6 +36,8 @@ An append-only immutable log store is the canonical store in a Kappa Architectur
 
 * [Apache Kafka](https://kafka.apache.org/)
 * [Apache Pulsar](https://pulsar.apache.org/)
+* [Amazon Kinesis](https://aws.amazon.com/kinesis/)
+* [Amazon DynamoDB Streams](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.html)
 * [Azure Cosmos DB Change Feed](https://docs.microsoft.com/en-us/azure/cosmos-db/change-feed)
 * [Azure EventHub](https://azure.microsoft.com/en-us/services/event-hubs/)
 * [DistributedLog](https://bookkeeper.apache.org/distributedlog/)
