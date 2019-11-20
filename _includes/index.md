@@ -46,6 +46,7 @@ An append-only immutable log store is the canonical store in a Kappa Architectur
 * [Azure Cosmos DB Change Feed](https://docs.microsoft.com/en-us/azure/cosmos-db/change-feed)
 * [Azure EventHub](https://azure.microsoft.com/en-us/services/event-hubs/)
 * [DistributedLog](https://bookkeeper.apache.org/distributedlog/)
+* [EventStore](https://eventstore.org)
 * [Chronicle Queue](https://github.com/OpenHFT/Chronicle-Queue)
 * [Pravega](http://pravega.io/)
 
