@@ -18,6 +18,10 @@ The idea of Kappa Architecture was first described in an [article](https://www.o
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/fU9hR3kiOK0" frameborder="0" allowfullscreen></iframe>
 
+### How do I make my own?
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/kyu8RY5NO3w" frameborder="0" allowfullscreen></iframe>
+
 ### Resources
 
 * [Questioning the Lambda Architecture](https://www.oreilly.com/ideas/questioning-the-lambda-architecture)
