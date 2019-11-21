@@ -64,6 +64,7 @@ In Kappa Architecture, data is fed from the log store into a streaming computati
 * [Hazelcast Jet](https://jet.hazelcast.org/)
 * [Kafka Streams](https://kafka.apache.org/documentation.html#streams)
 * [Onyx](https://www.onyxplatform.org/)
+* [Siddhi](https://siddhi.io/)
 
 ### Serving layer stores
 
