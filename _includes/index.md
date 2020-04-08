@@ -31,6 +31,8 @@ The idea of Kappa Architecture was first described in an [article](https://www.o
 * Linux Foundation Presentation: [Kappa Architecture: Our Experience](https://events.linuxfoundation.org/sites/events/files/slides/ASPgems%20-%20Kappa%20Architecture.pdf)
 * [Liquid: Unifying Nearline and Offline Big Data Integration](https://web.archive.org/web/20160324171136/http://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper25u.pdf) (Summary of Liquid paper can be found [here](https://blog.acolyer.org/2015/02/04/liquid-unifying-nearline-and-offline-big-data-integration/).)
 * Article by Joan Goyeau: [Functional Programming with Kafka Streams and Scala](https://itnext.io/a-cqrs-approach-with-kafka-streams-and-scala-49bfa78e4295)
+* [Kappa architecture workshop in Node.js](https://kappa-db.github.io/workshop/build/01.html)
+* [`kappa-core`: Minimal peer-to-peer database in Node.js, based on kappa architecture](https://github.com/kappa-db/kappa-core)
 
 ## Tools
 
@@ -49,6 +51,7 @@ An append-only immutable log store is the canonical store in a Kappa Architectur
 * [EventStore](https://eventstore.org)
 * [Chronicle Queue](https://github.com/OpenHFT/Chronicle-Queue)
 * [Pravega](http://pravega.io/)
+* [Hypercore](https://github.com/mafintosh/hypercore)
 
 ### Streaming computation systems
 
