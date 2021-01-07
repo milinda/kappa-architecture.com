@@ -20,7 +20,7 @@ The idea of Kappa Architecture was first described in an [article](https://www.o
 
 ### How do I make my own?
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/kyu8RY5NO3w" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/xQ5YkMBPe0o" frameborder="0" allowfullscreen></iframe>
 
 ### Resources
 
