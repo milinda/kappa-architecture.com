@@ -49,6 +49,7 @@ An append-only immutable log store is the canonical store in a Kappa Architectur
 * [EventStore](https://eventstore.org)
 * [Chronicle Queue](https://github.com/OpenHFT/Chronicle-Queue)
 * [Pravega](http://pravega.io/)
+* [Redpanda](http://redpanda.com/)
 
 ### Streaming computation systems
 
